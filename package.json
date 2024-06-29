@@ -2,12 +2,13 @@
   "name": "caoo-examen",
   "version": "0.0.0",
   "scripts": {
+    "build:prod": "ng build --configuration production --base-href /GHEPAGE/",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:caoo-examen": "node dist/caoo-examen/server/server.mjs"
+    "serve:ssr:caoo-examen": "node dist/GHPAGE/server/server.mjs"
   },
   "private": true,
   "dependencies": {
